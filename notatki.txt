@@ -1,0 +1,7 @@
+ansible -i ./hosts --connection=local local -m ping
+
+
+https://serversforhackers.com/c/an-ansible2-tutorial
+
+https://www.digitalocean.com/community/tutorials/how-to-use-ansible-roles-to-abstract-your-infrastructure-environment
+https://tasdikrahman.me/2017/03/19/Organising-tasks-in-roles-using-Ansible/ 

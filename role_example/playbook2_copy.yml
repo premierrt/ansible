@@ -1,0 +1,8 @@
+---
+- hosts: local
+  connection: local
+  tasks:
+  - name: copy files
+    copy:
+      src: notatki.txt
+      dest: out/	

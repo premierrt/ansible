@@ -2,4 +2,7 @@
 - name: copy files
   copy:
     src: "{{ source_file }}" 
-    dest: /tmp	
+    dest: /tmp
+
+- name: list files
+  command: ls /tmp	
